@@ -37,7 +37,7 @@ if angka2_3026 != 0:
     print("\nAssignment pembagian (/=)")
     print("Hasil =", hasil_3026)
 
-    #Assignment pembagian bulat
+#Assignment pembagian bulat
     hasil_3026 = angka1_3026
     hasil_3026 //= angka2_3026
     print("\nAssignment pembagian bulat (//=)")
