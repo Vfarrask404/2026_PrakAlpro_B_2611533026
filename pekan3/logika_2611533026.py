@@ -4,6 +4,11 @@
 #input tidak peka terhadap huruf besar dan kecil
 a1_3026 = input("Input nilai boolean-1 (True/False): ").strip().lower() == "true"
 a2_3026 = input("Input nilai boolean-2 (True/False): ").strip().lower() == "true"
+# .strip(): Menghapus spasi atau karakter kosong di awal dan akhir teks -> "  true  " menjadi "true"
+# .lower(): Mengubah semua huruf dalam teks menjadi huruf kecil -> "TRUE" atau "True" menjadi "true"
+# == "true": Ini adalah proses evaluasi (perbandingan). Python akan memeriksa apakah teks yang sudah 
+# dibersihkan tadi sama persis dengan kata "true" Jika sama, bagian ini menghasilkan nilai Boolean True.
+# Jika berbeda (misalnya pengguna mengetik "false", "bukan", atau mengosongkannya), bagian ini menghasilkan nilai Boolean False.
 
 print("\nA1 =", a1_3026)
 print("A2 =", a2_3026)
