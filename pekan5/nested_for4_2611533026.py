@@ -10,19 +10,16 @@ else:
     for i_3026 in range(1, tinggi_3026 + 1):
         b_3026 = c_3026 + 1
 
-        for j_3026 in range(1, tinggi_3026 + 1):
-            b_3026 = c_3026 + 1
+        for j_3026 in range(1, lebar_3026 + 1):
 
-            for j_3026 in range(1, lebar_3026 + 1):
-
-                #Baris atas dan bawah
-                if i_3026 == 1 or i_3026 == tinggi_3026:
-                    if j_3026 == 1 or j_3026 == lebar_3026:
-                        print("#", end="")
+            #Baris atas dan bawah
+            if i_3026 == 1 or i_3026 == tinggi_3026:
+                if j_3026 == 1 or j_3026 == lebar_3026:
+                    print("#", end="")
                 else:
                     print("=", end="")
 
-                #Baris isi
+            #Baris isi
             else :
                 if j_3026 == 1 or j_3026 == lebar_3026:
                     print("|", end="")
