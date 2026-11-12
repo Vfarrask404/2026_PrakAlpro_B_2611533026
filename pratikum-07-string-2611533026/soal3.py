@@ -2,13 +2,13 @@
 # NIM : 2611533026
 # Question 3
 
-#Bagian A
-#text = "Informatika"
-#print(text[11])
-#print(text.upper)
-#print(text[0:20])
+#Bagian A (kode perbaikannya)
+text = "Informatika"
+print(text[-1])
+print(text.upper())
+print(text[0:20])
 
-#Bagian B
+#Bagian B (kode perbaikannya)
 text = "Vania Farras Kalista"
 count = 0
 for char in text:
