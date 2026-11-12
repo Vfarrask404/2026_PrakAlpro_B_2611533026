@@ -11,4 +11,4 @@ print(name[::-1])
 print(len(name))
 name.lower()
 print(name)
-print(name.lower()) #output untuk semuanya huruf kecil
+print(name.lower()) #output untuk semuanya jadi huruf kecil
