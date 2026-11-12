@@ -9,6 +9,6 @@ print(name[1:4])
 print(name[::2])
 print(name[::-1])
 print(len(name))
-name.lower()
+name.lower() #penggunaan yang salah
+name = name.lower() #penggunaan yang benar
 print(name)
-print(name.lower()) #output untuk semuanya jadi huruf kecil
