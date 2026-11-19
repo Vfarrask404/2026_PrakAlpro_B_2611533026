@@ -2,7 +2,11 @@ LAST_DIGIT = 6
 daily_limit = 30000 + LAST_DIGIT * 1000
 
 # Data pengeluaran selama 7 hari
-expenses = [31500, 42000, 33500, 36500, 29000, 38500, 34500] #ikut soal ya ini kakkk
+expenses = [31500, 42000, 33500, 36500, 29000, 38500, 34500] #ini sesuai dengan soal ya kakkkk
+
+# Tampilkan pengeluaran setiap hari
+for i in range(7):
+    print(f"Day {i + 1}: {expenses[i]}")
 
 # Hitung total
 total = 0
@@ -27,7 +31,7 @@ for expense in expenses:
     if expense > daily_limit:
         above_limit += 1
 
-# Output
+# Output hasil
 print("Daily limit:", daily_limit)
 print("Total:", total)
 print(f"Average: {average:.1f}")
