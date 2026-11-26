@@ -12,7 +12,7 @@ for _ in range(n):
 for nama, total in kas.items():
     print(f"{nama}: {total}")
 
-# farras note : Menghitung total kas dan mencari penyetor terbesar
+# farras note : Menghitung total kas
 print(f"Total cash: {sum(kas.values())}")
 
 top_name = ""
