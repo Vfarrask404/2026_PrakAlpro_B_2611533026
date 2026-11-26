@@ -13,7 +13,7 @@ not_submitted_count = len(not_submitted)
 print("Submitted:", submitted_count, "students")
 print("Not submitted:", not_submitted_count, "students")
 
-# faras note : Menampilkan nomor absen yang belum mengumpulkan
+# farras note : Menampilkan nomor absen yang belum mengumpulkan
 for student in siswa:
     if student not in submitted_set:
         print(student)
