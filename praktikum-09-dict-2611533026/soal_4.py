@@ -5,7 +5,7 @@ submitted = input().split()
 siswa_set = set(siswa)
 submitted_set = set(submitted)
 
-# faras note : utk hitung jumlah mahasiswa yang sudah dan belum mengumpulkan
+# farras note : utk hitung jumlah mahasiswa yang sudah dan belum mengumpulkan
 submitted_count = len(siswa_set & submitted_set)
 not_submitted = siswa_set - submitted_set
 not_submitted_count = len(not_submitted)
